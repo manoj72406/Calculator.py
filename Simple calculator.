@@ -1,0 +1,16 @@
+print("       Manoj calculator")
+print("       ~~~~~~~~~~~~~~~~")
+a=int(input("enter first no"))
+b=int(input("enter second no"))
+c="+","-","×","÷"
+print(c)
+d=(input("enter an arithmetic operation"))
+if(d=="+"):
+	print(a+b)
+elif(d=="-"):
+	print(a-b)
+elif(d=="×"):
+	print(a*b)
+elif(d=="÷"):
+	print(float(a%b))
+print("Thanks for using Manoj calculator")
